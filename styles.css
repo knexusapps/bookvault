@@ -10,7 +10,7 @@ body {
     position: relative;
     color: rgb(122, 217, 255);
     font-family: cursive;
-    font-size:50px;
+    font-size:100px;
     line-height: 1;
     visibility: hidden;
 }
@@ -18,7 +18,7 @@ body {
 #bookvaultText {
     color: rgb(132, 255, 0);
     font-weight:bolder;
-    font-size: 50px;
+    font-size: 100px;
     line-height: 0.1;
     visibility: hidden;
 }
@@ -28,7 +28,7 @@ body {
     line-height: 0.1;
     padding-bottom: 5%;
     visibility: hidden;
-    font-size: 19px;
+    font-size: 38px;
 }
 
 #downloadButtonFrame {
@@ -39,10 +39,10 @@ body {
 
 #downloadButton {
     background-color: white;
-    padding: 10px 20px;
+    padding: 15px 25px;
     color: black;
-    font-size: 18px;
-    border-radius: 5px;
+    font-size: 38px;
+    border-radius: 10px;
     text-decoration: none;
     visibility: hidden;
 }
@@ -53,7 +53,8 @@ body {
 
 #availableforText {
     color: white;
-    visibility: hidden
+    visibility: hidden;
+    font-size: 20px;
 }
 
 #appIcon {
