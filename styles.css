@@ -27,7 +27,7 @@ body {
     line-height: 0.1;
     padding-bottom: 5%;
     visibility: hidden;
-    font-size: 32px;
+    font-size: 26px;
 }
 
 #downloadButtonFrame {
@@ -53,7 +53,7 @@ body {
 #availableforText {
     color: white;
     visibility: hidden;
-    font-size: 26px;
+    font-size: 22px;
     line-height: 0.1;
 }
 
