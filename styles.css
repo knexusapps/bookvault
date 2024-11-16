@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #293538;
+    margin-top: 15%;
+}
+
+#introducingText {
+    color: rgb(122, 217, 255);
+    font-family: cursive;
+    font-size:50px;
+    line-height: 1;
+    padding-top: 15%;
+    visibility: hidden;
+}
+
+#bookvaultText {
+    color: rgb(132, 255, 0);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    line-height: 0.1;
+    visibility: hidden;
+}
+
+#millionbooksText {
+    color: rgb(140, 255, 0);
+    line-height: 0.1;
+    padding-bottom: 40px;
+    visibility: hidden;
+}
+
+#downloadButtonFrame {
+    padding-top: 15%;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#downloadButton {
+    background-color: white;
+    padding: 10px 20px;
+    color: black;
+    font-size: 18px;
+    border-radius: 5px;
+    text-decoration: none;
+    visibility: hidden;
+}
+
+#downloadButton:hover {
+    background-color: #cbcbcb;
+}
+
+#availableforText {
+    color: white;
+    visibility: hidden
+}
+
+#appIcon {
+    border-radius: 35px;
+    visibility: hidden;
+}

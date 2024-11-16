@@ -1,32 +1,25 @@
 <html>
-<head>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-            margin-top: 50px;
-        }
-        .download-button {
-            display: inline-block;
-            padding: 10px 20px;
-            font-size: 16px;
-            color: white;
-            background-color: #007BFF;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            text-decoration: none;
-        }
-        .download-button:hover {
-            background-color: #0056b3;
-        }
-    </style>
-</head>
-<body>
-    <p>a1</p>
-    <!-- Button to download the file -->
-    <a href="BookVault_1.apk" download="BookVault.apk" class="download-button">
-        Download File
-    </a>
-</body>
+    <head>
+
+        <link rel = "stylesheet" href = "styles.css">
+        <link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    </head>
+    <body>
+        <p style="color: white; position: absolute; font-size: 5px">a1.2</p>
+
+        <p id = "introducingText">Introducing</p>
+        <p id = "bookvaultText">Book Vault</p>
+
+        <p id = "millionbooksText"><b>40M</b>+ books at your fingertips</p>
+
+        <img src = "icon.jpg" height = "30%" id = "appIcon">
+
+        <div id = "downloadButtonFrame">
+            <a href="BookVault_1.apk" download="BookVault.apk" id = "downloadButton">
+                Download Now
+            </a>
+        </div>
+        <p id = "availableforText">Available for <svg width="24" height="24" viewBox="0 0 24 12" xmlns="http://www.w3.org/2000/svg"><path fill="currentColor" d="m17.6 9.48l1.84-3.18c.16-.31.04-.69-.26-.85a.637.637 0 0 0-.83.22l-1.88 3.24a11.46 11.46 0 0 0-8.94 0L5.65 5.67a.643.643 0 0 0-.87-.2c-.28.18-.37.54-.22.83L6.4 9.48A10.78 10.78 0 0 0 1 18h22a10.78 10.78 0 0 0-5.4-8.52M7 15.25a1.25 1.25 0 1 1 0-2.5a1.25 1.25 0 0 1 0 2.5m10 0a1.25 1.25 0 1 1 0-2.5a1.25 1.25 0 0 1 0 2.5"/></svg></p>
+        <script src = "main.js"></script>
+    </body>
 </html>
