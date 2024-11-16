@@ -29,7 +29,7 @@ body {
     color: rgb(140, 255, 0);
     padding-bottom: 5%;
     visibility: hidden;
-    font-size: 5vw; /* Smaller text for mobile screens */
+    font-size: 4vw; /* Smaller text for mobile screens */
 }
 
 #downloadButtonFrame {
