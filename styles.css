@@ -3,6 +3,7 @@ body {
     text-align: center;
     background-color: #293538;
     margin-top: 5%;
+    align-content: center
 }
 
 #introducingText {
@@ -16,7 +17,7 @@ body {
 
 #bookvaultText {
     color: rgb(132, 255, 0);
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight:bolder;
     font-size: 50px;
     line-height: 0.1;
     visibility: hidden;
@@ -25,12 +26,13 @@ body {
 #millionbooksText {
     color: rgb(140, 255, 0);
     line-height: 0.1;
-    padding-bottom: 40px;
+    padding-bottom: 5%;
     visibility: hidden;
+    font-size: 19px;
 }
 
 #downloadButtonFrame {
-    padding-top: 5%;
+    padding-top: 10%;
     border-radius: 5px;
     cursor: pointer;
 }
