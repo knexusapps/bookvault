@@ -26,6 +26,7 @@ body {
 }
 
 #millionbooksText {
+    margin-top: -18px;
     font-size: large;
     color: rgb(140, 255, 0);
     padding-bottom: 5%;
@@ -33,9 +34,8 @@ body {
 }
 
 #downloadButtonFrame {
-    padding-top: 10%;
+    margin-top: 10%;
     border-radius: 5px;
-    cursor: pointer;
 }
 
 #downloadButton {
@@ -46,6 +46,7 @@ body {
     border-radius: 10px;
     text-decoration: none;
     visibility: hidden;
+    cursor: pointer;
 }
 
 #downloadButton:hover {
@@ -53,6 +54,7 @@ body {
 }
 
 #availableforText {
+    margin-top: -6px;
     color: white;
     visibility: hidden;
     font-size: large;
