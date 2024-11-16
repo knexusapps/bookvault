@@ -2,7 +2,6 @@ body {
     font-family: Arial, sans-serif;
     text-align: center;
     background-color: #293538;
-    margin-top: 5%;
     align-content: center
 }
 
@@ -54,7 +53,7 @@ body {
 #availableforText {
     color: white;
     visibility: hidden;
-    font-size: 20px;
+    font-size: 30px;
 }
 
 #appIcon {
