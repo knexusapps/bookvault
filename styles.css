@@ -11,7 +11,7 @@ body {
     position: relative;
     color: rgb(122, 217, 255);
     font-family: cursive;
-    font-size: xxx-large; /* Responsive to screen width */
+    font-size: xxx-large;
     line-height: 1.2;
     visibility: hidden;
     margin-top: 5%;
@@ -20,13 +20,13 @@ body {
 #bookvaultText {
     color: rgb(132, 255, 0);
     font-weight: bolder;
-    font-size: xxx-large; /* Responsive to screen width */
-    line-height: 0.1;
+    font-size: xxx-large;
+    line-height: 10%;
     visibility: hidden;
 }
 
 #millionbooksText {
-    font-size: large; /* Smaller text for mobile screens */
+    font-size: large;
     color: rgb(140, 255, 0);
     padding-bottom: 5%;
     visibility: hidden;
@@ -40,9 +40,9 @@ body {
 
 #downloadButton {
     background-color: white;
-    padding: 12px 20px; /* Smaller padding for mobile */
+    padding: 12px 20px;
     color: black;
-    font-size: x-large; /* Scales the button text for mobile */
+    font-size: x-large;
     border-radius: 10px;
     text-decoration: none;
     visibility: hidden;
@@ -55,7 +55,7 @@ body {
 #availableforText {
     color: white;
     visibility: hidden;
-    font-size: large; /* Smaller text for mobile */
+    font-size: large;
 }
 
 #appIcon {
