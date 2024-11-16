@@ -2,15 +2,15 @@ body {
     font-family: Arial, sans-serif;
     text-align: center;
     background-color: #293538;
-    margin-top: 15%;
+    margin-top: 5%;
 }
 
 #introducingText {
+    position: relative;
     color: rgb(122, 217, 255);
     font-family: cursive;
     font-size:50px;
     line-height: 1;
-    padding-top: 15%;
     visibility: hidden;
 }
 
@@ -30,7 +30,7 @@ body {
 }
 
 #downloadButtonFrame {
-    padding-top: 15%;
+    padding-top: 5%;
     border-radius: 5px;
     cursor: pointer;
 }
