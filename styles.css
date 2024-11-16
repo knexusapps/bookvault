@@ -21,15 +21,15 @@ body {
     color: rgb(132, 255, 0);
     font-weight: bolder;
     font-size: 10vw; /* Responsive to screen width */
-    line-height: 0.8;
+    line-height: 0.1;
     visibility: hidden;
 }
 
 #millionbooksText {
+    font-size: 3vw; /* Smaller text for mobile screens */
     color: rgb(140, 255, 0);
     padding-bottom: 5%;
     visibility: hidden;
-    font-size: 4vw; /* Smaller text for mobile screens */
 }
 
 #downloadButtonFrame {
@@ -55,7 +55,7 @@ body {
 #availableforText {
     color: white;
     visibility: hidden;
-    font-size: 4vw; /* Smaller text for mobile */
+    font-size: 3vw; /* Smaller text for mobile */
 }
 
 #appIcon {
@@ -78,7 +78,7 @@ body {
     }
 
     #millionbooksText {
-        font-size: 4vw;
+        font-size: 3vw;
     }
 
     #downloadButton {
@@ -87,7 +87,7 @@ body {
     }
 
     #availableforText {
-        font-size: 3.5vw;
+        font-size: 3vw;
     }
 
     #appIcon {
