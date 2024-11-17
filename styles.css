@@ -11,7 +11,7 @@ body {
     position: relative;
     color: rgb(122, 217, 255);
     font-family: cursive;
-    font-size: xxx-large;
+    font-size: 15vw;
     line-height: 1.2;
     visibility: hidden;
     margin-top: 5%;
@@ -20,14 +20,14 @@ body {
 #bookvaultText {
     color: rgb(132, 255, 0);
     font-weight: bolder;
-    font-size: xxx-large;
+    font-size: 15vw;
     line-height: 10%;
     visibility: hidden;
 }
 
 #millionbooksText {
     margin-top: -18px;
-    font-size: large;
+    font-size: 5vw;
     color: rgb(140, 255, 0);
     padding-bottom: 5%;
     visibility: hidden;
