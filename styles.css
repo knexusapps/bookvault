@@ -1,7 +1,7 @@
 body {
     font-family: Arial, sans-serif;
     text-align: center;
-    background-color: rgb(13	67	66	);
+    background-color: #293538;
     align-content: center;
     margin: 0;
     padding: 0;
@@ -9,7 +9,7 @@ body {
 
 #introducingText {
     position: relative;
-    color: rgb(171	211	210	);
+    color: #6FC3B2;
     font-family: cursive;
     font-size: 15vw;
     line-height: 1.2;
@@ -18,7 +18,7 @@ body {
 }
 
 #bookvaultText {
-    color: rgb(85, 255, 0);
+    color: #A8E79F;
     font-weight: bolder;
     font-size: 15vw;
     line-height: 10%;
@@ -28,7 +28,7 @@ body {
 #millionbooksText {
     margin-top: -18px;
     font-size: 5vw;
-    color: rgb(140, 255, 0);
+    color: #B3E2CC;
     padding-bottom: 5%;
     visibility: hidden;
 }
@@ -40,9 +40,9 @@ body {
 }
 
 #downloadButton {
-    background-color: white;
+    background-color: rgb(20, 151, 100);
     padding: 12px 20px;
-    color: black;
+    color: white;
     font-size: x-large;
     border-radius: 10px;
     text-decoration: none;
@@ -59,6 +59,7 @@ body {
     color: white;
     visibility: hidden;
     font-size: large;
+    color: rgb(89, 179, 144);
 }
 
 #appIcon {
