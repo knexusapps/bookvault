@@ -1,7 +1,7 @@
 body {
     font-family: Arial, sans-serif;
     text-align: center;
-    background-color: #293538;
+    background-color: rgb(13	67	66	);
     align-content: center;
     margin: 0;
     padding: 0;
@@ -9,7 +9,7 @@ body {
 
 #introducingText {
     position: relative;
-    color: rgb(122, 217, 255);
+    color: rgb(171	211	210	);
     font-family: cursive;
     font-size: 15vw;
     line-height: 1.2;
@@ -18,7 +18,7 @@ body {
 }
 
 #bookvaultText {
-    color: rgb(140, 255, 0);
+    color: rgb(85, 255, 0);
     font-weight: bolder;
     font-size: 15vw;
     line-height: 10%;
