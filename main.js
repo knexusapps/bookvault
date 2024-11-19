@@ -54,7 +54,7 @@ window.setTimeout(
     function() {
         get("introducingText").visibility = "hidden";
         get("introducingText").style.height = "0px";
-    }, 2000
+    }, 2100
 )
 
 
