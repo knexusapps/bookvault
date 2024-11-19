@@ -54,7 +54,8 @@ window.setTimeout(
     function() {
         get("introducingText").visibility = "hidden";
         get("introducingText").style.height = "0px";
-    }, 2100
+        get("introducingText").style.padding = "0px"
+    }, 2000
 )
 
 
