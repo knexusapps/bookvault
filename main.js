@@ -13,7 +13,7 @@ window.setTimeout(
     function() {
         get("bookvaultText").className = "animate__animated animate__jackInTheBox";
         get("bookvaultText").style.visibility = "visible"
-    }, 1500
+    }, 2050
 )
 
 window.setTimeout(
@@ -43,3 +43,18 @@ window.setTimeout(
         get("availableforText").style.visibility = "visible"
     }, 3800
 )
+
+window.setTimeout(
+    function() {
+        get("introducingText").className = "animate__animated animate__fadeOut";
+    }, 1100
+)
+
+window.setTimeout(
+    function() {
+        get("introducingText").visibility = "hidden";
+        get("introducingText").style.height = "0px";
+    }, 2000
+)
+
+

@@ -8,7 +8,9 @@ body {
 }
 
 #introducingText {
-    position: relative;
+    position: absolute;
+    padding-top: 25%;
+    padding-left: 12%;
     color: #6FC3B2;
     font-family: cursive;
     font-size: 15vw;
